@@ -1,0 +1,16 @@
+{
+    "name": "homework_seleniumAuto",
+    "version": "1.0.0",
+    "description": "Saucedemo Automation with Selenium, POM, and Visual Regression",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha specs/**/*.spec.js --timeout 60000"
+    },
+    "devDependencies": {
+        "chai": "^4.3.10",
+        "mocha": "^12.0.3",
+        "pixelmatch": "^5.3.0",
+        "pngjs": "^7.0.0",
+        "selenium-webdriver": "^4.15.0"
+    }
+}
